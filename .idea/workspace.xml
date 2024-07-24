@@ -4,31 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b65efb5-d1e3-4f70-8eba-71fb93fe8bcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentAvgExamScoreComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentCourseNumberComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentFullNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/StudentUniversityIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityFullNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityMainProfileComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityShortNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/UniversityYearOfFoundationComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StudentComparatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StudyProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/UniversityComparatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ComparatorUtil.java" afterDir="false" />
+    <list default="true" id="1b65efb5-d1e3-4f70-8eba-71fb93fe8bcf" name="Changes" comment="gotovo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/XlsReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/XlsWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StatisticsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/StudyProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/StudyProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -84,6 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1720692876877</updated>
     </task>
+    <task id="LOCAL-00001" summary="gotovo">
+      <created>1720704831922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720704831922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gotovo" />
+    <option name="LAST_COMMIT_MESSAGE" value="gotovo" />
   </component>
 </project>
