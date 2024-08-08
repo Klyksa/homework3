@@ -1,8 +1,9 @@
 package enums;
 
 public enum StudentComparatorType {
-    FULL_NAME,
+
     UNIVERSITY_ID,
-    COURSE_NUMBER,
+    FULL_NAME,
+    COURSE,
     AVG_EXAM_SCORE
 }

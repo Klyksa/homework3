@@ -1,13 +1,16 @@
 package enums;
 
 public enum StudyProfile {
+    PHYSICS("Физика"),
+    COMPUTER_SCIENCE("Информатика"),
+    MATHEMATICS("Математика"),
+    JURISPRUDENCE("Юриспруденция"),
     MEDICINE("Медицина"),
-    ENGINEERING("Инженерия"),
-    BUSINESS("Бизнес");
+    LINGUISTICS("Лингвистика");
 
     private final String profileName;
 
-    StudyProfile(String profileName) {
+    private StudyProfile(String profileName) {
         this.profileName = profileName;
     }
 

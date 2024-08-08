@@ -2,62 +2,75 @@ package model;
 
 import com.google.gson.annotations.SerializedName;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
-    @SerializedName("fullname")
+
+    @SerializedName("studentName")
+    @XmlElement(name = "studentName")
     private String fullName;
 
-    @SerializedName("university_id")
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     private String universityId;
 
-    @SerializedName("current_course")
+    @SerializedName("course")
+    @XmlTransient
     private int currentCourseNumber;
 
-    @SerializedName("average_exam_score")
+    @SerializedName("avgScore")
+    @XmlElement(name = "avgScore")
     private float avgExamScore;
 
     public Student() {
-        this.fullName = "";
-        this.universityId = "";
-        this.currentCourseNumber = 0;
-        this.avgExamScore = 0.0f;
     }
 
-    // Геттеры и сеттеры
     public String getFullName() {
         return fullName;
     }
 
-    public void setFullName(String fullName) {
+    public Student setFullName(String fullName) {
         this.fullName = fullName;
+        return this;
     }
 
     public String getUniversityId() {
         return universityId;
     }
 
-    public void setUniversityId(String universityId) {
+    public Student setUniversityId(String universityId) {
         this.universityId = universityId;
+        return this;
     }
 
     public int getCurrentCourseNumber() {
         return currentCourseNumber;
     }
 
-    public void setCurrentCourseNumber(int currentCourseNumber) {
+    public Student setCurrentCourseNumber(int currentCourseNumber) {
         this.currentCourseNumber = currentCourseNumber;
+        return this;
     }
 
     public float getAvgExamScore() {
         return avgExamScore;
     }
 
-    public void setAvgExamScore(float avgExamScore) {
+    public Student setAvgExamScore(float avgExamScore) {
         this.avgExamScore = avgExamScore;
+        return this;
     }
 
-    // Метод toString
     @Override
     public String toString() {
-        return "Имя студента: " + fullName + "\nИдентификатор университета: " + universityId + "\nНомер текущего курса: " + currentCourseNumber + "\nСредний балл за экзамен: " + avgExamScore;
+        return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
+                this.fullName,
+                this.universityId,
+                this.currentCourseNumber,
+                this.avgExamScore);
     }
 }
